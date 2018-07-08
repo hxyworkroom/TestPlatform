@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>测试</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+	<link rel="stylesheet" href="css/quickerstart.css" type="text/css"/>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<div class="content">
+			<div class="right" id="r">
+				<div>
+					<p class="ra">Welcome to API Test Platform</p>
+					<p>Quick Start~:</p>
+					<p>这是一个用于进行api接口测试的平台</p>
+					<p>通过直接对接口的访问，获取返回值以及响应信息等，对接口进行测试</p>
+					<p></p>
+					<p>此项目为version1.0</p>
+					<p>包含了静态分析，接口测试，压力测试三大板块，并附带本平台自测板块和一些小型测试板块</p>
+				</div>
+				<div class="rb">
+					<div class="rba" style="height:160px">
+						<h3>　静态分析</h3><br/>
+						<p>
+							　静态方法是指不运行被测程序本身，仅通过分析或检查源程序的语法、结构、过程、接口等来检查程序的正确性。<br/>
+							　对需求规格说明书、软件设计说明书、源程序做结构分析、流程图分析、符号执行来找错，找出欠缺和可疑之处，<br/>
+							　例如不匹配的参数、不适当的循环嵌套和分支嵌套、不允许的递归、未使用过的变量、空指针的引用和可疑的计算等。<br/><br/>
+							　通过在文件中配置自定义的静态规则<br/>
+							　我们可以对项目进行静态检测<br/>
+						</p>
+					</div>
+					<div class="rbb" style="height:160px">
+						<h1>　接口测试</h1><br/>
+						<p>
+							　接口测试是测试系统组件间接口的一种测试。接口测试主要用于检测外部系统与系统之间以及内部各个子系统之间的交互点。<br/>
+							　测试的重点是要检查数据的交换，传递和控制管理过程，以及系统间的相互逻辑依赖关系等。<br/>
+							　接口测试一般会用于多系统间交互开发，或者拥有多个子系统的应用系统开发的测试。<br/>
+							　接口测试适用为其他系统提供服务的底层框架系统和中心服务系统，测试系统对外部提供的接口，验证正确性和稳定性<br/><br/>
+							　我们可以在前端工作未完成的时候<br/>
+							　利用接口测试工具，直接发起请求进行测试<br/>
+						</p>
+					</div>
+					<div class="rbc" style="height:160px">
+						<h1>　压力测试</h1><br/>
+						<p>
+							　压力测试（Stress Test），也称为强度测试、负载测试。压力测试是模拟实际应用的软硬件环境及用户使用过程的系统负荷，<br/>
+							　长时间或超大负荷地运行测试软件，来测试被测系统的性能、可靠性、稳定性等。<br/>
+							　目的是在软件投入使用以前或软件负载达到极限以前，通过执行可重复的负载测试，<br/><br/>
+							　利用多线程，对同一功能进行密集测试<br/>
+							　从而观察其结果和状态，进行分析<br/>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var h = $(window).height();
+			var hin = h+100;
+			document.getElementById("r").style.height=hin+"px";
+		</script>
+	</body>
+</html>
